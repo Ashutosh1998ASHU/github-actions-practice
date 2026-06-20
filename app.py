@@ -6,10 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-     return None
-    
-if nne:
-    go
+     return render_template('index.html')
     
 @app.route('/health')
 def health():
